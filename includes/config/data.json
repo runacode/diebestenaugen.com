@@ -1,9 +1,8 @@
 {
-"country_1": "US",
-  "country_2": "United States",
-  "currency": "$",
-  "lang": "en",
-  "FaceBookCurrency": "USD",
+"country_1": "UK",
+  "country_2": "United Kingdom",
+  "currency": "&#8364;",
+  "FaceBookCurrency": "EUR",
   "products": [
     {
       "cid": 64,
@@ -20,15 +19,14 @@
       "discount": "Discount",
       "rewiews_mark": "9.8",
       "excellent": "Excellent",
-      "num_reviews": "53 Reviews",
+      "num_reviews": "49 Reviews",
       "buy_2_get_1": "Buy 2 and get 1 for free",
       "satisfaction_guaranteed": "Satisfaction<br>Guaranteed",
       "add_to_cart": "Add to Cart",
-      "support_email": "support@feyelashserum.com",
-      "rand_head": "USA Only Free Shipping Till the Weekend",
+      "support_email": "support@thefeguk.com",
+      "rand_head": "Free Shipping Till the Weekend",
       "logos": "../resources/images/logos.jpg",
-      "head": "US 60% off + Free Shipping"
-
+      "head": "DE - 60% RABATT NUR HEUTE! "
     }
   ]
 }
