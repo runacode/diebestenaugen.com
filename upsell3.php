@@ -1,5 +1,5 @@
 <?php
-include_once(dirname(__FILE__) . '/locale/languages.php');
+include_once(dirname(__FILE__) .'/includes/data.php');
 //This code must be included at the top of your script before any output is sent to the browser
 //-even before <!DOCTYPE> declaration
 require_once realpath(dirname(__FILE__)."/resources/konnektiveSDK.php");
