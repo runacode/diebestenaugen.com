@@ -51,7 +51,6 @@ include 'includes/data.php';
 <body>
 
 
-
 <header class="container-fluid p-0">
     <div class="blue-line text-center">
         <?php echo $product->rand_head ?>
@@ -189,6 +188,32 @@ include 'includes/data.php';
 
 </script>
 <script src="resources/js/main.min.js?1=2"></script>
+<script lang="template/html" type="template/html" id="CartBottomTemplate">
+    <div class="container cart-bottom">
+        <div class="row">
+            <div class="col-12 name">
+                <div><a class="checkout-button" target="_top" href="/checkout.php"><?= T('Check Out'); ?> <i
+                                class="fa fa-arrow-circle-right"></i></a></div>
+            </div>
+            <div><img class="img-fluid pl-5 pt-1 pr-5" src="resources/images/sponsors-01.jpg"/></div>
+            <div class="accepted-payment">
+                <h3><?= T('Accepted Payment Methods'); ?></h3>
+                <img src="resources/images/sponsors-02.jpg">
+            </div>
+            <div class="d-flex satisfaction-guaranteed">' +
+                <div><img src="resources/images/satisfaction-guaranteed.jpg"/></div>
+                <div><?= T('Our products are backed by a risk-free'); ?>
+                    <em><?= T('30-day money-back'); ?></em><?= T('guarantee If you are not completely satisfied with your purchase'); ?>
+                    <em><?= T('for ANY REASON'); ?></em><?= T(', we will do'); ?>
+                    <em><?= T('WHATEVER it takes'); ?></em><?= T('to make it right'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script lang="template/html" type="template/html" id="CartTempty">
+    <div class="mt-3 mb-3"><?= T('Your cart is empty'); ?><br><?= T('Please add some items to proceed shopping'); ?></div>
+</script>
 </body>
 </html>
 
