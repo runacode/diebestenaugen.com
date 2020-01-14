@@ -204,7 +204,7 @@ include 'includes/data.php';
                 <div><img src="resources/images/satisfaction-guaranteed.jpg"/></div>
                 <div><?= T('Our products are backed by a risk-free'); ?>
                     <em><?= T('30-day money-back'); ?></em><?= T('guarantee If you are not completely satisfied with your purchase'); ?>
-                    <em><?= T('for ANY REASON'); ?></em><?= T(', we will do'); ?>
+                    <em><?= T('for ANY REASON'); ?></em>, <?= T('we will do'); ?>
                     <em><?= T('WHATEVER it takes'); ?></em><?= T('to make it right'); ?>
                 </div>
             </div>
