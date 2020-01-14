@@ -87,7 +87,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
         <div class='kform_layout2Col kform_layout2Col_L'>
             <h3> <?= T('Contact Information'); ?></h3>
             <div class="all-fields-required">
-                <span>*</span><span><?= T('All fields are required to ship your order'); ?>&nbsp;<?= T('correctly'); ?>&nbsp;</span>
+                <span>*</span><span><?= T('All fields are required to ship your order correctly'); ?>&nbsp;</span>
                 <i class="fa fa-check"></i>
             </div>
             <div class="kform_spacer">
