@@ -126,7 +126,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
             <div class='kform_spacer kform_checkbox'>
                 <input name='billShipSame' type='CHECKBOX' checked>
                 <label for='billShipSame'>
-                    <?= T('Shipping'); ?> <?= T('Address same as Billing'); ?>
+                    <?= T('Shipping Address same as Billing'); ?>
                 </label>
             </div>
             <div id='kform_hiddenAddress'>
@@ -215,7 +215,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
 
                 <div class='kform_spacer' style='text-align:right'>
                     <label for='cardMonth' style='width:30%;text-align:middle;'>
-                        <?= T('Expiration:'); ?>
+                        <?= T('Expiration'); ?>:
                     </label>
                     <select name='cardMonth' style='width:30%' isRequired>
                         <option value='01'><?= T('01 (Jan)'); ?></option>
