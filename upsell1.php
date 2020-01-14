@@ -15,7 +15,7 @@ $orderTotal = $ksdk->getOrderTotal();
 <html>
 <head>
     <title>
-        <?= T('Get 2 sets of FEG - EYE BROWN'); ?>
+        <?= T('Get 2 sets of FEG - EYEBROW'); ?>
     </title>
     <meta name="viewport" content="width=device-width"/>
     <meta charset="utf-8"/>
@@ -84,7 +84,7 @@ $orderTotal = $ksdk->getOrderTotal();
         </div>
         <div class="upsell-offer-text">
             <div><b><?= T('Don\'t miss this limited time opportunity'); ?></b></div>
-            <div><span><?= T('😱 RESULTS IN 7 DAYS! 😱'); ?></span>
+            <div><span><?= T('�� RESULTS IN 7 DAYS! ��'); ?></span>
                 <P><?= T('FEG Eyebrow Enhancer is for increasing the growth including length, thickness and darkness of eyebrows'); ?></P>
             </div>
         </div>
