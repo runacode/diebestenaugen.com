@@ -267,7 +267,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
             setTimeout(Load, 200);
             return;
         }
-        $(Object.keys(window.kform.states.GB)).each(function (i, item) {
+        $(Object.keys(window.kform.states.DE)).each(function (i, item) {
             $("[name='city']").append($('<option />').val(window.kform.states.GB[item]).text(window.kform.states.GB[item]))
         })
 
