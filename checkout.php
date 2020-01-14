@@ -22,7 +22,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
 <html>
 <head>
     <title>
-        Checkout - Rocket Commerce
+        <?= T('Checkout - Rocket Commerce'); ?>
     </title>
 
     <meta name="viewport" content="width=device-width"/>
