@@ -51,7 +51,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
         window.product = JSON.parse('<?php echo json_encode($product); ?>');
         window.data = JSON.parse('<?php echo json_encode($data); ?>');
     </script>
-    <script src="/resources/js/cart.min.jsjs"></script>
+    <script src="/resources/js/cart.min.js?rand=<?php echo rand(0,1000); ?>"></script>
     <style>body {
             margin: 8px !important;
         }</style>
