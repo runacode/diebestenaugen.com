@@ -147,7 +147,12 @@
     </div>
     <div class="row">
         <div class="col-12" data-aos="fade-right">
-            <p class="text-center"><?= T('"I\'m so happy that I finally found FEG Serum, I was always conscious of my small eyelashes After using for only 8 weeks I see a huge difference and feel comfortable again to go out!"'); ?></p>
+
+
+            <p>
+            <?= T('I\'m so happy that I finally found FEG Serum, After using for only 8 weeks I see a huge difference and feel comfortable again to go out!'); ?>
+
+            </p>
             <h3 class="text-right"><?= T('Week 3'); ?></h3>
             <div class="text-center">
                 <img src="../resources/images/eyes-img.png" class="img-fluid" alt="Eyes">
