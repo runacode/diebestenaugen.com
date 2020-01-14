@@ -40,7 +40,7 @@ include 'includes/data.php';
         window.product = JSON.parse('<?php echo json_encode($product); ?>');
         window.data = JSON.parse('<?php echo json_encode($data); ?>');
     </script>
-    <script src="/resources/js/cart.min.js"></script>
+    <script src="/resources/js/cart.min.js?rand=<?php echo rand(0,1000); ?>"></script>
 
     <link rel="stylesheet" type="text/css" href="resources/css/fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="resources/css/shopify.css">
@@ -53,7 +53,7 @@ include 'includes/data.php';
 
 <header class="container-fluid p-0">
     <div class="blue-line text-center">
-        <?php echo $product->head ?>
+        <?php echo $product->rand_head ?>
     </div>
     <div class="d-flex justify-content-between main-part">
         <div class="logo">
