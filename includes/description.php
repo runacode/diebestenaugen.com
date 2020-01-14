@@ -27,7 +27,7 @@
 <div class="featuring text-uppercase text-center"><?= T('Featuring'); ?></div>
 <img class="img-fluid" src="../resources/images/fegserum-feature-logo.jpg">
 
-<div class="benefit text-center mt-5"><?= T('PERFECT ALTERNATIVE TO FALSE LASHES AND EYEBROWS:'); ?><span
+<div class="benefit text-center mt-5"><?= T('PERFECT ALTERNATIVE TO FALSE LASHES AND EYEBROWS'); ?>:<span
             class="highlighted"><?= T('DON’T SPEND MONEY ON LASH EXTENSIONS'); ?></span><?= T('OR DAMAGE YOUR NATURAL LASHES WITH FALSE EYELASHES'); ?>
     <span class="highlighted"><b><?= T('GROW UP TO 2 MM AFTER USING FOR 7-14 DAYS'); ?></b></span></div>
 
@@ -242,7 +242,7 @@
     </div>
     <div class="mt-5"><?= T('Our products are backed by a risk-free'); ?>
         <em><?= T('30-day money-back'); ?></em><?= T('guarantee If you are not completely satisfied with your purchase'); ?>
-        <em><?= T('for ANY REASON'); ?></em><?= T(', we will do'); ?>
+        <em><?= T('for ANY REASON'); ?></em>,<?= T('we will do'); ?>
         <em><?= T('WHATEVER it takes'); ?></em><?= T('to make it right'); ?></div>
 </div>
 
