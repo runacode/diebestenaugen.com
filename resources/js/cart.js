@@ -189,25 +189,12 @@ window.cart = {
             r += '</div>';
             r += '</div>';
             r += '</div>';
-            r += '<div class="container cart-bottom">';
-            r += '<div class="row">';
-            r += '<div class="col-12 name">';
-            r += '<div><a class="checkout-button" target="_top" href="/checkout.php">Check Out <i class="fa fa-arrow-circle-right"></i></a></div>';
-            r += '</div>';
-            r += '<div><img class="img-fluid pl-5 pt-1 pr-5" src="resources/images/sponsors-01.jpg" /></div>';
-            r += '<div class="accepted-payment">' +
-                '      <h3>Accepted Payment Methods</h3>' +
-                '      <img src="resources/images/sponsors-02.jpg">' +
-                '    </div>'
-            r += '<div class="d-flex satisfaction-guaranteed">' +
-                '<div><img src="resources/images/satisfaction-guaranteed.jpg" /></div>' +
-                '<div>Our products are backed by a risk-free <em>60-day money-back guarantee.</em> If you are not completely satisfied with your purchase for <em>ANY REASON,</em> we will do <em>WHATEVER</em> it takes to make it right.</div>' +
-                '    </div>'
+            r+= document.querySelector('#CartBottomTemplate').innerHTML
         } else {
             r += '<div class="container cart-bottom">';
             r += '<div class="row">';
             r += '<div class="col-12 name">';
-            r += '<div class="mt-3 mb-3">Your cart is empty<br>Please add some items to proceed shopping</div>';
+            r+= document.querySelector('#CartTempty').innerHTML
             r += '<div><img class="img-fluid pl-5 pt-1 pr-5" src="resources/images/sponsors-01.jpg" /></div>';
             r += '</div>';
             r += '</div>';
@@ -263,7 +250,7 @@ $(document).ready(function () {
 
 
     var countdown = $.cookie('upsell_1-countdown') ? $.cookie('upsell_1-countdown') : 0;
-    getCountdownMessage('.upsell-timer', countdown, 'The discount expires in');
+    getCountdownMessage('.upsell-timer', countdown, DiscountMessage );
 });
 function fnDate() {
     var counter = $('.persons-online>span');
