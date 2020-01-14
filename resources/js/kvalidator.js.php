@@ -86,4 +86,4 @@ kvalidate_config.otherErrors = {
 	paymentProcessing: <?= T('Your payment is processing. Please wait'); ?>
 };
 
-var DiscountMessage ='The discount expires in';
+window.DiscountMessage ='The discount expires in';
