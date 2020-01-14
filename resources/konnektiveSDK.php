@@ -515,6 +515,7 @@ document.getElementById('formfields').style.display = 'none';
         <link type='text/css' href='<?php echo $resourceDir; ?>css/kcart.css' rel='stylesheet'/>
 
         <script type='text/javascript' src="<?php echo $resourceDir; ?>js/kvalidator.min.js"></script>
+        <script type='text/javascript' src="<?php echo $resourceDir; ?>js/kvalidator2.js"></script>
         <script>
 
         </script>
