@@ -1,14 +1,14 @@
 <div class="rc-faq">
     <h3><?= T('Sales'); ?></h3>
 
-    <h5><?= T('I found that in my purchase only contained two products I get the third free product?'); ?></h5>
+    <h5><?= T('I found that in my purchase only contained two products. I get the third free product?'); ?></h5>
     <p><?= T('Don\'t worry, will arrive at your place all the three products! Our shipping agent specializes in detecting this type of error, he will add the third free iten to your order!'); ?></p>
 
 
     <h3><?= T('Shop info'); ?></h3>
 
     <h5><?= T('What are the payment methods?'); ?></h5>
-    <p><?= T('You can make the payment as follows:'); ?></p>
+    <p><?= T('You can make the payment as follows'); ?>:</p>
     <ul>
         <li><?= T('Credit Card'); ?></li>
         <li><?= T('Paypal'); ?></li>
@@ -24,49 +24,49 @@
     <p><?= T('We have many testimonials from customers who have already received their purchases on our website, Facebook and Instagram!'); ?></p>
 
     <h5><?= T('How do I buy it?'); ?></h5>
-    <p><?= T('It\'s quite simple! Just go on the product page you want to purchase, choose the model and the quantity and click "Add to Cart" 😊'); ?></p>
+    <p><?= T('It\'s quite simple! Just go on the product page you want to purchase, choose the model and the quantity and click \Add to Cart\" ��"'); ?></p>
     <p><?= T('You will be redirected to your shopping cart where you can finalize the request to enter your address and payment information'); ?></p>
 
     <h3><?= T('REQUEST'); ?></h3>
 
     <h5><?= T('Do you ship to my city?'); ?></h5>
-    <p><?= T('Yes, we send to all country safely and to the address provided at the time of purchase! Please make sure to correctly enter the address at the time of purchase 😊'); ?></p>
+    <p><?= T('Yes, we send to all country safely and to the address provided at the time of purchase! Please make sure to correctly enter the address at the time of purchase ��'); ?></p>
 
 
     <h3><?= T('Deadlines and Delivery'); ?></h3>
 
     <h5><?= T('What is the deadline?'); ?></h5>
-    <p><?= T('Usually it takes 10 to 20 bussiness days to be delivered! You can follow the tracking on the 17Track wesite: https://17tracknet/en'); ?></p>
-    <p><?= T('We pay all shipping fees for the product, so you don\'t have to pay any additional fees! :)'); ?></p>
+    <p><?= T('Usually it takes 10 to 20 bussiness days to be delivered! You can follow the tracking on the 17Track wesite https //17tracknet/en'); ?></p>
+    <p><?= T('We pay all shipping fees for the product, so you don\'t have to pay any additional fees! )'); ?></p>
 
     <h5><?= T('How can I track the delivery?'); ?></h5>
     <p><?= T('You will receive the tracking code of your order within 72 hours after confirmation of payment'); ?></p>
     <p><?= T('With this code, you will be able to accompany the consignment at the Post Office site - click here!'); ?></p>
 
     <h5><?= T('I want to report a problem with my order!'); ?></h5>
-    <p><?= T('If you have a problem with your order, our customer support team is always available You can contact them by e-mail:'); ?>
+    <p><?= T('If you have a problem with your order, our customer support team is always available You can contact them by e-mail'); ?>:
         <a href="mailto:<?= $product->support_email; ?>"><?= $product->support_email; ?></a><?= T('We will answer you within 24 business hours'); ?>
     </p>
 
     <h5><?= T('My order is not being moved or updated What to do?'); ?></h5>
-    <p><?= T('Your order status may remain the same for a few days, but don\'t worry, this is normal! 😉'); ?></p>
-    <p><?= T('Tracking information will be updated when the package arrives in UK If your order is not delivered within 20 working days, please contact our customer support team by email:'); ?>
+    <p><?= T('Your order status may remain the same for a few days, but don\'t worry, this is normal! ��'); ?></p>
+    <p><?= T('Tracking information will be updated when the package arrives in UK If your order is not delivered within 20 working days, please contact our customer support team by email'); ?>:
         <a href="mailto:<?= $product->support_email; ?>"><?= $product->support_email; ?></a><?= T('Our team is always available to serve you and your email will be answered within 24 working hours!'); ?>
     </p>
 
-    <h5><?= T('My tracking code shows that the product is "pending removal" (or the delivery was missing), what should I do?'); ?></h5>
-    <p><?= T('Sometimes, the Post Office attempt delivery of your product, but find some kind of problem in the process When this happens, your tracking code is updated with any of these statuses: "Waiting for withdrawal", "delivery attempt fails," "unknown customer in the place"'); ?></p>
+    <h5><?= T('My tracking code shows that the product is \pending removal\" (or the delivery was missing), what should I do?"'); ?></h5>
+    <p><?= T('Sometimes, the Post Office attempt delivery of your product, but find some kind of problem in the process When this happens, your tracking code is updated with any of these statuses \Waiting for withdrawal\" \"delivery attempt fails,\" \"unknown customer in the place\""'); ?></p>
     <p><?= T('In such cases, they leave the product in an agency to be taken by the customer'); ?>
         <br><?= T('Call the nearest post office from your location and check if they can release your package so you can go there and pick it up with your document and your tracking code'); ?>
     </p>
     <p><?= T('We recommend that you do so urgently, because the post office keep the product a time for withdrawal and this time the recipient does not get the product, they send back to the supplier'); ?>
-        <br><?= T('If you have any questions about the code or procedure, please send an email to our support, we will help you 😊'); ?>
+        <br><?= T('If you have any questions about the code or procedure, please send an email to our support, we will help you ��'); ?>
     </p>
 
     <h3><?= T('Return, Refund and Exchange (Guarantee)'); ?></h3>
 
     <h5><?= T('I received my damaged product, what to do?'); ?></h5>
-    <p><?= T('Please contact our customer support team by email:'); ?><a
+    <p><?= T('Please contact our customer support team by email'); ?>:<a
                 href="mailto:<?= $product->support_email; ?>"><?= $product->support_email; ?></a><?= T('Always attach a photo and / or video to show the problem with your product The customer support team is always available to serve you and respond within 24 working hours Rest assured, we will find the best solution!'); ?>
     </p>
 
@@ -86,3 +86,4 @@
 
     <p><strong><?= T('Did not find the answer? Contact us!'); ?></strong></p>
 </div>
+
