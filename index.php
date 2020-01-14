@@ -53,7 +53,7 @@ include 'includes/data.php';
 
 <header class="container-fluid p-0">
     <div class="blue-line text-center">
-        <?php echo $product->rand_head ?>
+        <?php echo $product->head ?>
     </div>
     <div class="d-flex justify-content-between main-part">
         <div class="logo">
