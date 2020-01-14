@@ -62,7 +62,7 @@ $upsell = $ksdk->getProduct((int) $productId);
            <?= T('SILICONE MAKE-UP SPONGE!'); ?></div>
         </div>
         <div class="below-upsell-present">
-            <div class="d-flex line-1"><div><?= T('😱'); ?></div><?= T('SOFT TO SKIN - SILICON'); ?> <br> <?= T('MAKE-UP SPONGE'); ?><div><?= T('😱'); ?></div></div>
+            <div class="d-flex line-1"><div>😱</div><?= T('SOFT TO SKIN - SILICON'); ?> <br> <?= T('MAKE-UP SPONGE'); ?><div>😱</div></div>
             <div class="line-2"><?=T('NO MESS, IT DOESN\'T HURT <br> YOUR SKIN, EASIER TO USE, <b>ANTIALLERGIC AND ANTIBACTERIAL');?></b></div>
         </div>
     </div>
