@@ -250,7 +250,7 @@ $(document).ready(function () {
 
 
     var countdown = $.cookie('upsell_1-countdown') ? $.cookie('upsell_1-countdown') : 0;
-    getCountdownMessage('.upsell-timer', countdown, DiscountMessage );
+    getCountdownMessage('.upsell-timer', countdown );
 });
 function fnDate() {
     var counter = $('.persons-online>span');
@@ -300,6 +300,6 @@ function getCountdownMessage(selector, time,message) {
             message = 'Special Offer Ends in';
         }
 
-        target.html(message + ' <span>' + (hours) + ':' + (minutes) + ':' + (seconds) + '</span>');
+        target.html(window.DiscountMessage   + ' <span>' + (hours) + ':' + (minutes) + ':' + (seconds) + '</span>');
     }, 1000);
 }
