@@ -15,7 +15,7 @@ include 'includes/data.php';
 <html>
 <head>
     <title>
-        <?= T('FEG Serum - Eyelash Enchancer - Exclusive offer'); ?>
+        <?= T('FEG Serum - Eyelash Enhancer - Exclusive offer'); ?>
     </title>
 
     <meta name="viewport" content="width=device-width"/>
@@ -89,7 +89,7 @@ include 'includes/data.php';
                         <?php $ksdk->echoUpsaleCheckoutButton('Claim Now'); ?>
 
                     </form>
-                    <div class="below-upsell-button"><?= T('ONLY PAY'); ?> <?php echo $data->currency . $upsell->price ?> <?= T('SHIPPING & HANDLING'); ?></div>
+                    <div class="below-upsell-button"><?= T('ONLY PAY'); ?> <?php echo $data->currency . $upsell->price ?> <?= T('Shipping'); ?></div>
                 </div>
             </div>
             <div class="row no-thanks">
